@@ -19,7 +19,7 @@ class ContactForm extends Component {
 
     this.reset();
   };*/
-  handleSubmit = (contact, { resetForm }) => {
+  hendleSubmit = (contact, { resetForm }) => {
     this.props.onSubmit(contact);
     resetForm();
   };
