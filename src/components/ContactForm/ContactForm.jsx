@@ -13,7 +13,7 @@ class ContactForm extends Component {
   render() {
     const schema = yup.object().shape({
       name: yup.string().required(),
-      number: yup.string().min(8).max(16).required(),
+      number: yup.string().min(6).max(16).required(),
     });
 
     return (
